@@ -81,7 +81,6 @@ resultado.innerText = texto;
 button.addEventListener("click", function() {
   if (input.value !== "") {
     const texto = input.value;
+    resultado.innerText = texto;
   }
-
-  resultado.innerText = texto;
 });
